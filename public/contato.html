@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSolutions</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à WebSolutions</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="sobre">Sobre</a>
+        <a href="contato">Contato</a>
+        <a href="produtos">produtos</a>
+    </nav>
+    <div class="container">
+        <section>
+            <p>Estamos aqui para ajudar! Entre em contato conosco para mais informações sobre nossos serviços ou para discutir suas necessidades específicas.</p>
+    
+            <div class="contact-info">
+                <h2>Informações de Contato</h2>
+                <p><strong>Endereço:</strong> Rua Jacinto, 1212 - Jardins - São Paulo, São Paulo</p>
+                <p><strong>Telefone:</strong> (11) 4002-8922</p>
+                <p><strong>Email:</strong> contato@websolutions.com</p>
+            </div>
+    
+            <div class="contact-form">
+                <h2>Formulário de Contato</h2>
+                <form action="enviar.php" method="post">
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar Mensagem</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer class="footer-relative">
+        <p>&copy; 2024 WebSolutions. Todos os direitos reservados.</p>
+    </footer>
